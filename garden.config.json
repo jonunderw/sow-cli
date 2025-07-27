@@ -1,0 +1,31 @@
+{
+  "gardenSize": {
+    "width": 10,
+    "height": 10
+  },
+  "hardinessZone": "6a",
+  "preferredPlants": [
+    "tomato",
+    "basil",
+    "lettuce",
+    "carrots",
+    "onion",
+    "beans"
+  ],
+  "constraints": [
+    {
+      "type": "no_nightshades_near_brassicas",
+      "description": "Keep tomatoes away from broccoli and cabbage"
+    }
+  ],
+  "visualization": {
+    "defaultFormat": "ascii",
+    "showGrid": true,
+    "showLegend": true
+  },
+  "planning": {
+    "prioritizeCompanions": true,
+    "allowPartialPlacement": true,
+    "suggestionMode": "conservative"
+  }
+}

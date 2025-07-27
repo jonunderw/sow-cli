@@ -1,0 +1,134 @@
+{
+  "description": "USDA Plant Hardiness Zone data with average frost dates",
+  "zones": {
+    "3a": {
+      "min_temp": -40,
+      "max_temp": -35,
+      "last_frost": "2025-05-15",
+      "first_frost": "2025-09-15",
+      "growing_season": 123
+    },
+    "3b": {
+      "min_temp": -35,
+      "max_temp": -30,
+      "last_frost": "2025-05-10",
+      "first_frost": "2025-09-20",
+      "growing_season": 133
+    },
+    "4a": {
+      "min_temp": -30,
+      "max_temp": -25,
+      "last_frost": "2025-05-01",
+      "first_frost": "2025-10-01",
+      "growing_season": 153
+    },
+    "4b": {
+      "min_temp": -25,
+      "max_temp": -20,
+      "last_frost": "2025-04-25",
+      "first_frost": "2025-10-10",
+      "growing_season": 168
+    },
+    "5a": {
+      "min_temp": -20,
+      "max_temp": -15,
+      "last_frost": "2025-04-15",
+      "first_frost": "2025-10-15",
+      "growing_season": 183
+    },
+    "5b": {
+      "min_temp": -15,
+      "max_temp": -10,
+      "last_frost": "2025-04-10",
+      "first_frost": "2025-10-25",
+      "growing_season": 198
+    },
+    "6a": {
+      "min_temp": -10,
+      "max_temp": -5,
+      "last_frost": "2025-04-01",
+      "first_frost": "2025-11-01",
+      "growing_season": 214
+    },
+    "6b": {
+      "min_temp": -5,
+      "max_temp": 0,
+      "last_frost": "2025-03-25",
+      "first_frost": "2025-11-10",
+      "growing_season": 230
+    },
+    "7a": {
+      "min_temp": 0,
+      "max_temp": 5,
+      "last_frost": "2025-03-15",
+      "first_frost": "2025-11-20",
+      "growing_season": 250
+    },
+    "7b": {
+      "min_temp": 5,
+      "max_temp": 10,
+      "last_frost": "2025-03-10",
+      "first_frost": "2025-12-01",
+      "growing_season": 266
+    },
+    "8a": {
+      "min_temp": 10,
+      "max_temp": 15,
+      "last_frost": "2025-03-01",
+      "first_frost": "2025-12-10",
+      "growing_season": 284
+    },
+    "8b": {
+      "min_temp": 15,
+      "max_temp": 20,
+      "last_frost": "2025-02-20",
+      "first_frost": "2025-12-20",
+      "growing_season": 303
+    },
+    "9a": {
+      "min_temp": 20,
+      "max_temp": 25,
+      "last_frost": "2025-02-10",
+      "first_frost": "2025-12-31",
+      "growing_season": 323
+    },
+    "9b": {
+      "min_temp": 25,
+      "max_temp": 30,
+      "last_frost": "2025-01-31",
+      "first_frost": "2026-01-10",
+      "growing_season": 344
+    },
+    "10a": {
+      "min_temp": 30,
+      "max_temp": 35,
+      "last_frost": "rare",
+      "first_frost": "rare",
+      "growing_season": 365
+    },
+    "10b": {
+      "min_temp": 35,
+      "max_temp": 40,
+      "last_frost": "none",
+      "first_frost": "none",
+      "growing_season": 365
+    }
+  },
+  "planting_adjustments": {
+    "cool_season": {
+      "description": "Plants that prefer cooler weather (lettuce, peas, broccoli)",
+      "start_weeks_before_last_frost": 2,
+      "end_weeks_before_first_frost": 8
+    },
+    "warm_season": {
+      "description": "Plants that need warm soil (tomatoes, peppers, beans)",
+      "start_weeks_after_last_frost": 1,
+      "end_weeks_before_first_frost": 12
+    },
+    "heat_tolerant": {
+      "description": "Plants that can handle summer heat (squash, corn, okra)",
+      "start_weeks_after_last_frost": 2,
+      "end_weeks_before_first_frost": 16
+    }
+  }
+}

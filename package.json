@@ -1,0 +1,42 @@
+{
+  "name": "sow-cli",
+  "version": "1.0.0",
+  "description": "A CLI application for garden planning with companion planting, yield estimation, and planting calendars",
+  "main": "index.js",
+  "bin": {
+    "sow": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "demo": "node index.js plan --plants 'tomato,basil,lettuce,carrots' --width 8 --height 8",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "garden",
+    "planning",
+    "companion-planting",
+    "cli",
+    "agriculture",
+    "farming"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "luxon": "^3.4.4",
+    "cli-table3": "^0.6.3",
+    "figlet": "^1.7.0"
+  },
+  "optionalDependencies": {
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

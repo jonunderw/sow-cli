@@ -1,0 +1,202 @@
+{
+  "description": "Companion planting matrix showing plant relationships",
+  "legend": {
+    "excellent": "Highly beneficial - strongly encourage planting together",
+    "good": "Beneficial - good companions that help each other",
+    "neutral": "No significant positive or negative interaction",
+    "avoid": "Negative interaction - should not be planted near each other",
+    "bad": "Strongly antagonistic - will harm each other's growth"
+  },
+  "relationships": {
+    "tomato": {
+      "basil": "excellent",
+      "oregano": "excellent", 
+      "parsley": "good",
+      "marigold": "excellent",
+      "carrots": "good",
+      "pepper": "good",
+      "onion": "good",
+      "lettuce": "neutral",
+      "broccoli": "avoid",
+      "cabbage": "avoid",
+      "corn": "avoid",
+      "fennel": "bad",
+      "kohlrabi": "avoid",
+      "brassicas": "avoid"
+    },
+    "basil": {
+      "tomato": "excellent",
+      "pepper": "excellent",
+      "oregano": "good",
+      "lettuce": "good",
+      "beans": "neutral",
+      "rue": "bad",
+      "sage": "avoid"
+    },
+    "lettuce": {
+      "carrots": "excellent",
+      "radish": "excellent",
+      "onion": "good",
+      "garlic": "good",
+      "chives": "good",
+      "basil": "good",
+      "spinach": "good",
+      "peas": "good",
+      "beans": "neutral",
+      "broccoli": "avoid",
+      "parsley": "avoid"
+    },
+    "carrots": {
+      "tomato": "good",
+      "lettuce": "excellent",
+      "onion": "excellent",
+      "leek": "good",
+      "rosemary": "good",
+      "chives": "good",
+      "sage": "good",
+      "dill": "bad",
+      "parsnip": "avoid",
+      "celery": "avoid"
+    },
+    "onion": {
+      "tomato": "good",
+      "carrots": "excellent",
+      "lettuce": "good",
+      "cabbage": "excellent",
+      "broccoli": "good",
+      "kale": "good",
+      "pepper": "good",
+      "beets": "good",
+      "beans": "bad",
+      "peas": "bad",
+      "asparagus": "avoid"
+    },
+    "beans": {
+      "corn": "excellent",
+      "squash": "excellent",
+      "radish": "good",
+      "marigold": "good",
+      "cucumber": "good",
+      "lettuce": "neutral",
+      "carrots": "neutral",
+      "onion": "bad",
+      "garlic": "bad",
+      "fennel": "bad",
+      "sunflower": "avoid"
+    },
+    "corn": {
+      "beans": "excellent",
+      "squash": "excellent",
+      "pumpkin": "good",
+      "cucumber": "good",
+      "peas": "neutral",
+      "tomato": "avoid",
+      "celery": "avoid"
+    },
+    "squash": {
+      "corn": "excellent",
+      "beans": "excellent",
+      "radish": "good",
+      "nasturtium": "good",
+      "marigold": "good",
+      "potato": "avoid",
+      "cucumber": "avoid"
+    },
+    "pepper": {
+      "basil": "excellent",
+      "oregano": "good",
+      "tomato": "good",
+      "onion": "good",
+      "carrots": "neutral",
+      "fennel": "bad",
+      "kohlrabi": "avoid",
+      "beans": "neutral"
+    },
+    "broccoli": {
+      "onion": "good",
+      "spinach": "good",
+      "dill": "good",
+      "garlic": "good",
+      "tomato": "avoid",
+      "lettuce": "avoid",
+      "strawberry": "avoid",
+      "pepper": "avoid"
+    },
+    "radish": {
+      "lettuce": "excellent",
+      "carrots": "excellent",
+      "beans": "good",
+      "squash": "good",
+      "cucumber": "good",
+      "spinach": "good",
+      "peas": "good",
+      "hyssop": "bad"
+    },
+    "spinach": {
+      "lettuce": "good",
+      "radish": "good",
+      "strawberry": "good",
+      "peas": "good",
+      "beans": "neutral",
+      "tomato": "neutral"
+    },
+    "cucumber": {
+      "radish": "good",
+      "beans": "good",
+      "corn": "good",
+      "lettuce": "good",
+      "peas": "neutral",
+      "sage": "bad",
+      "aromatic_herbs": "avoid"
+    },
+    "peas": {
+      "carrots": "good",
+      "radish": "good",
+      "lettuce": "good",
+      "spinach": "good",
+      "cucumber": "neutral",
+      "beans": "neutral",
+      "onion": "bad",
+      "garlic": "bad"
+    },
+    "kale": {
+      "onion": "good",
+      "garlic": "good",
+      "lettuce": "good",
+      "beets": "good",
+      "dill": "good",
+      "tomato": "avoid",
+      "pepper": "avoid"
+    },
+    "beets": {
+      "lettuce": "good",
+      "onion": "good",
+      "kale": "good",
+      "garlic": "good",
+      "kohlrabi": "good",
+      "pole_beans": "bad"
+    }
+  },
+  "general_principles": {
+    "alliums": {
+      "description": "Onions, garlic, chives repel many pests",
+      "good_with": ["brassicas", "nightshades", "carrots"],
+      "avoid_with": ["legumes"]
+    },
+    "legumes": {
+      "description": "Beans and peas fix nitrogen, benefiting heavy feeders",
+      "good_with": ["corn", "squash", "heavy_feeders"],
+      "avoid_with": ["alliums"]
+    },
+    "brassicas": {
+      "description": "Cabbage family plants",
+      "good_with": ["alliums", "herbs"],
+      "avoid_with": ["nightshades", "strawberries"]
+    },
+    "nightshades": {
+      "description": "Tomatoes, peppers, eggplant",
+      "good_with": ["herbs", "alliums"],
+      "avoid_with": ["brassicas", "fennel"]
+    }
+  }
+}
