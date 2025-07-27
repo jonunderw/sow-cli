@@ -20,7 +20,7 @@
     "agriculture",
     "farming"
   ],
-  "author": "Your Name",
+  "author": "Jon Underwood",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.12",
